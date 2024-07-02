@@ -1,0 +1,131 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin-left: 20px;
+    }
+    
+    .slider-inner h2 {
+        font-size: 40px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-area {
+        padding: 20px 60px;
+        padding-bottom: 10px;
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner h2 {
+        font-size: 35px;
+    }
+    .slider-inner p {
+        margin-bottom: 25px;
+    }
+    .single-features {
+        border-bottom: 1px solid #ddd;
+    }
+    .theme-bg .col-xl-4:last-child .single-features{
+        border-bottom: 0;
+    }
+    .testimonial-area {
+        background-size: cover;
+        background-position: center center;
+    }
+    .about-img {
+        margin-top: 40px;
+    }
+    .subcribe-form input {
+        width: 22%;
+    }
+    .single-slider{
+        background-size: cover;
+        background-position: center center;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .header-area {
+        padding: 20px 60px;
+        padding-bottom: 10px;
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .single-features {
+        border-bottom: 1px solid #ddd;
+    }
+    .theme-bg .col-xl-4:last-child .single-features{
+        border-bottom: 0;
+    }
+    .single-slider{
+        background-size: cover;
+        background-position: center center;
+    }
+    .slider-inner h2 {
+        font-size: 30px;
+    }
+    .slider-inner p {
+        margin-bottom: 25px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .about-img {
+        margin-top: 40px;
+    }
+    .subcribe-form input {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .pricing-item {
+        width: 100%;
+    }
+    .testimonial-area {
+        background-size: cover;
+        background-position: center center;
+    }
+    .testimonial-area{
+        background-size: cover;
+        background-position: center center;
+    }
+    .testimonial-item {
+        background: rgba(255,255,255, .9);
+        padding: 60px 45px;
+    }
+    .copywrite-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
