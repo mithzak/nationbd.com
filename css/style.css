@@ -38,11 +38,7 @@ ul {
     background: transparent;
     border-color: #505cfd;
     color: #070707;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    transition: 0.8s;
   }
   
   .btn-border:hover{
