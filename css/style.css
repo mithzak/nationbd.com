@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
     color: #404044;
 
 }
-p{}
+
 ul {
     margin: 0;
     padding: 0;
@@ -34,13 +34,31 @@ ul {
     font-weight: 600;
     font-family: 'Poppins';
 }
+.btn-border{
+    background: transparent;
+    border-color: #505cfd;
+    color: #070707;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  
+  .btn-border:hover{
+    background-image: -moz-linear-gradient( 0deg, rgb(31, 30, 30) 1%, rgb(41, 39, 39) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(31, 29, 29) 1%, rgb(41, 41, 41) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(18, 22, 22) 1%, rgb(29, 27, 27) 100%);
+    border-color: transparent;
+    color: #fff;
+  }
 
 
 /* header area  */
 .header-area {
     padding: 0 60px;
 }
-.hire-btn.float-right {
+.hire-btn.float-end {
     margin-top: 20px;
     margin-left: 55px;
 }
@@ -84,7 +102,7 @@ header {
     height: 100vh;
 }
 .slider-icon a {
-    color: #505cfd;
+    color: #484950;
     font-size: 18px;
     margin: 0 15px;
 }
@@ -166,8 +184,7 @@ header {
 }
 
 /* subscribe  */
-.subcribe-form{}
-.subcribe-form form{}
+
 .subcribe-form input {
     border: 0;
     width: 25%;
@@ -255,7 +272,7 @@ header {
 
 
 /* counter area  */
-.counter-wrapper{}
+
 .counter-wrapper i{
     font-size: 30px;
     margin-bottom: 30px;
@@ -273,50 +290,6 @@ header {
     margin: 0;
     color: #fff;
 }
-
-/* team area  */
-/* .team-img img{
-    width: 100%;
-}
-.team-img:before {
-    position: absolute;
-    content: "";
-    top: 30px;
-    left: 30px;
-    background: #fff;
-    opacity: .5;
-    right: 30px;
-    bottom: 30px;
-    transition: .3s;
-    opacity: 0;
-    visibility: hidden;
-}
-.team-wrapper:hover .team-img:before{opacity: .5;visibility: visible;}
-.team-wrapper {
-    position: relative;
-}
-.team-info {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
-    opacity: 0;
-    visibility: hidden;
-}
-.team-wrapper:hover .team-info{opacity: 1;visibility: visible;}
-
-.team-info h3 {
-    font-size: 22px;
-    margin-bottom: 4px;
-}
-.team-icon {
-    margin-top: 6px;
-}
-.team-icon a {
-    color: #444;
-    margin: 0 5px;
-} */
 
 
 
@@ -414,8 +387,7 @@ ul.contact-list {
     color: #fff;
     margin-right: 10px;
 }
-ul.footer-link{}
-ul.footer-link li{}
+
 ul.footer-link li a {
     color: #777;
     line-height: 36px;
@@ -504,6 +476,40 @@ ul.footer-link li {
     border: 0;
     border-bottom: 2px solid #DC9280;
     border-radius: 0px;
+}
+
+/* contact  */
+
+
+.form-box .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #404044;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   
+}
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #E8A18A;
+}
+label.form-label {
+    text-transform: uppercase;
+    color: #666;
+    font-size: small;
+    letter-spacing: .09rem;
 }
 
 
